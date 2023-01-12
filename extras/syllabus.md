@@ -17,21 +17,21 @@ permalink: /extras/syllabus
 
 ## Course meeting information
 * Section: 01
-* Course ID: 20158
-* Time: MW 4:00PM-5:50PM
-* Meeting Dates: 08/20/2022-12/09/2022
-* Location: MH 565
+* Course ID: 19501
+* Time: MW 4:00PM-5:15PM
+* Meeting Dates: 01/21/2022-05/12/2022
+* Location: MH 563
 
 ## Course catalog description
-This course is a first course in topology at the senior level.  Topics include topological spaces and continuous functions, connectedness and compactness, metric spaces and function spaces.
+Basic concepts of classical number theory with modern applications. Divisibility, congruences. Diophantine approximations and equations, primitive roots, continued fractions. Applications to public key cyprotography, primality testing, factoring methods and check digits.
 
-**Course prerequisites:** Math 350 with a "C" (2.0) or better; or graduate standing.
+**Course prerequisites:** Math 302 with a "C" (2.0) or better; or graduate standing.
 
 ## Course Material
 ### Required Textbooks
 The textbook for this course is:
 
-1. *Introduction to Topology and Modern Analysis* by George F. Simmons.
+1. *Elementary Number Theory* by Burton 7th Ed.
 
 ### Required technology
 For this course, you will need to have access to technology that will allow you to join Zoom office hours, and view and upload assignments on Canvas.
@@ -53,6 +53,8 @@ You can get free and low-cost software for being an active CUSF student.  Softwa
 * Assessments: 10%
 * Midterm Exams: 3 at 15% each
 * Final Exam: 30%
+
+**Caution!** Do your homework!  It is worth a considerable percentage of your grade.  It is possible to pass every exam in this class and still fail if you don't bother to turn in your homework.
 
 ### Grading scale (tentative)
 
