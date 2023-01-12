@@ -6,10 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Math 414 Topology
+title: Math 430 Number Theory
 ---
-
-<p align="center"><img src="fig/coffee-cup.jpg"/></p>
 
 **Instructor:** Dr. W. Riley Casper [(About your instructor)](instructor)
 
