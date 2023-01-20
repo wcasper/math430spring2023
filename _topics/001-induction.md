@@ -104,7 +104,7 @@ F_{n+1}
   &= \frac{\varphi^{n-1}-\psi^{n-1}}{\varphi-\psi} + \frac{\varphi^{n}-\psi^{n}}{\varphi-\psi}\\
   &=\frac{\varphi^{n-1}-\psi^{n-1}+\varphi^{n}-\psi^{n}}{\varphi-\psi}\\
   &=\frac{\varphi^{n-1}(1+\varphi)-\psi^{n-1}(1+\psi)}{\varphi-\psi}
-\end{align*}
+\end{align*}$$
 
 Now note that both the golden ratio and its conjugate are roots of the quadratic polynomial $$x^2-x-1$$, and therefore $$\varphi^2=\varphi+1$$ and $$\psi^2=\psi+1$$.
 Inserting this in the previous expression, we see
