@@ -73,7 +73,7 @@ Thus by the principle of induction, the statement of the theorem holds for all $
 ## Strong Induction
 
 For some proofs, we will require an even stronger form of induction, aptly called **strong induction**.
-It works just like the usual principal of induction, except that the inductive assumption changes.
+It works just like the usual principle of induction, except that the inductive assumption changes.
 Instead of assuming that $$P(n)$$ is true for some $$n$$, we assume that $$P(k)$$ is true for all $$0\leq k\leq n$$.
 
 Here's an example, based on the sequence of **Fibonacci numbers** defined by $$F_1=1$$, $$F_2=1$$, $$F_3=2$$, $$F_4=3$$, and more generally by
