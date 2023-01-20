@@ -17,6 +17,7 @@ Notes and highlights from lecture
 * Read Section 1 of the textbook.
 
 ## Today's topics
-* <a target="_parent" href="https://wcasper.github.io/math430fall2023/topics/000-what-is-number-theory.html">What is number theory (link)</a>
-* <a target="_parent" href="https://wcasper.github.io/math430fall2023/topics/001-induction.html">Mathmatical induction (link)</a>
+* <a target="_parent" href="https://wcasper.github.io/math430spring2023/topics/000-what-is-number-theory.html">What is number theory (link)</a>
+* <a target="_parent" href="https://wcasper.github.io/math430spring2023/topics/001-induction.html">Mathmatical induction (link)</a>
+
 
