@@ -128,7 +128,7 @@ $$\begin{align*}
 \end{align*}$$
 
 Thus the statement of our theorem is true for $$n=m+1$$.
-By the principle of mathematical induction, it therefore holds for all $n\geq 0$$.
+By the principle of mathematical induction, it therefore holds for all $$n\geq 0$$.
 :black_square_button:
 
 ## Combinatorial interpretation
