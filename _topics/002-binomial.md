@@ -43,15 +43,7 @@ $$\begin{align*}
 
 This immediately gives us a way of calculating binomial coefficients, called **Pascal's Triangle**
 
-$$
-\begin{tabular}{rccccccccc}
-$n=0$:&    &    &    &    &  1\\\noalign{\smallskip\smallskip}
-$n=1$:&    &    &    &  1 &    &  1\\\noalign{\smallskip\smallskip}
-$n=2$:&    &    &  1 &    &  2 &    &  1\\\noalign{\smallskip\smallskip}
-$n=3$:&    &  1 &    &  3 &    &  3 &    &  1\\\noalign{\smallskip\smallskip}
-$n=4$:&  1 &    &  4 &    &  6 &    &  4 &    &  1\\\noalign{\smallskip\smallskip}
-\end{tabular}
-$$
+<p align="center"><img src="fig/pascal.png"/></p>
 
 Here the $$n$$'th row has entries $$\binom{n}{0},\binom{n}{1},\dots,\binom{n}{k}$$.
 Pascal's triangle can be easily constructed from Pascal's identity, using the
