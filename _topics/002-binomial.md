@@ -123,6 +123,18 @@ Thus the statement of our theorem is true for $$n=m+1$$.
 By the principle of mathematical induction, it therefore holds for all $$n\geq 0$$.
 :black_square_button:
 
+The Binomial Theorem has many practical applications, such as easily calculating the value of $$11^4$$:
+
+$$
+\begin{align*}
+11^4
+  &= (10+1)^4\\
+  &= \binom{4}{0}10^01^4 + \binom{4}{1}10^11^3 + \binom{4}{2}10^21^2 + \binom{4}{3}10^31^1 + \binom{4}{4}10^41^0\\
+  &= 1 + 4\cdot 10^1 + 6\cdot 10^2 + 4\cdot 10^3 + 10^4\\
+  &= 1 + 40 + 600 + 4000 + 10000 = 14641
+\end{align*}
+$$
+
 ## Combinatorial interpretation
 
 Interestingly, binomial coefficients have very important applications in other fields such as combinatorics and statistics.
