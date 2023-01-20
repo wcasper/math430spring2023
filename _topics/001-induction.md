@@ -66,6 +66,7 @@ $$\begin{align*}
 
 This shows that the statement of our theorem holds for $$k=n+1$$.
 Thus by the principle of induction, the statement of the theorem holds for all $$k\geq 0$$.
+:black_square_button:
 
 :warning: **Watch the base case**:  Sometimes the base case might be $$P(1)$$ or $$P(2)$$, or you may have to prove the first few $$P(j)$$'s individually as the base case.
 
@@ -116,6 +117,7 @@ Inserting this in the previous expression, we see
 $$F_{n+1} = \frac{\varphi^{n-1}\varphi^2-\psi^{n-1}\psi^2}{\varphi-\psi} = \frac{\varphi^{n+1}-\psi^{n+1}}{\varphi-\psi}.$$
 
 Therfore by the principle of strong induction, our theorem is true for all $$k\geq 1$$.
+:black_square_button:
 
 
 
