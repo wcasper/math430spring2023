@@ -4,9 +4,13 @@ title: Mathematical induction
 ---
 
 >A woman in liquor production
+>
 >Owns a still of exquisite construction.
+>
 >The alcohol boils
+>
 >Through magnetic coils.
+>
 >She says that it's "proof by induction."
 
 Mathematical induction is an incredibly powerful tool that we can use to prove various mathematical statements.
