@@ -81,7 +81,7 @@ Here's an example, based on the sequence of **Fibonacci numbers** defined by $$F
 $$F_{k+2} = F_{k+1} + F_k,\quad \forall\ k\geq 0.$$
 
 **Theorem:**
-The $$k$$'th Fibonnaci number can be expressed in terms of the **Golden Ratio** $$\varphi = \frac{1+\sqrt{5}}{2}$$ and its conjugate $$\psi = \varphi{1-\sqrt{5}}{2}$$ by
+The $$k$$'th Fibonnaci number can be expressed in terms of the **Golden Ratio** $$\varphi = \frac{1+\sqrt{5}}{2}$$ and its conjugate $$\psi = \frac{1-\sqrt{5}}{2}$$ by
 
 $$F_k = \frac{\varphi^k-\psi^k}{\varphi-\psi}\quad\forall\ k\geq 1.$$
 
