@@ -21,7 +21,7 @@ To see this, we first establish **Pascal's identity**.
 
 **Theorem (Pascal's Identity):**
 
-Let $$n\leq k\leq 1$$ be integers.  Then
+Let $$n\geq k\geq 1$$ be integers.  Then
 
 $$\binom{n}{k} + \binom{n}{k-1} = \binom{n+1}{k}.$$
 
