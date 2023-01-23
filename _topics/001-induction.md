@@ -26,7 +26,7 @@ For example, $$P(k)$$ could be the statement
 
 $$P(k):\quad \sum_{j=0}^kj = \frac{k(k+1)}{2}.$$
 
-Showing the dominos are close enough together is proving that if $$P(k)$ is true, then $$P(k+1)$$ is also true.
+Showing the dominos are close enough together is proving that if $$P(k)$$ is true, then $$P(k+1)$$ is also true.
 Then knocking over the first domino is the same as proving that $$P(0)$$ is true.
 Once both of these are done, we know $$P(k)$$ is true for all $$k$$, 
 
