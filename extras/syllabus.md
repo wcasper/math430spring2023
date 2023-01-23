@@ -18,7 +18,7 @@ permalink: /extras/syllabus
 ## Course meeting information
 * Section: 01
 * Course ID: 19501
-* Time: MW 4:00PM-5:15PM
+* Time: TTh 4:00PM-5:15PM
 * Meeting Dates: 01/21/2022-05/12/2022
 * Location: MH 563
 
