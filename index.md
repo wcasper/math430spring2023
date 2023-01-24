@@ -13,7 +13,7 @@ title: Math 430 Number Theory
 
 **Email:** wcasper@fullerton.edu
 
-**Course meetings:** Monday and Wednesday 4:00PM-5:15PM
+**Course meetings:** Tuesday and Thursday 4:00PM-5:15PM
 
 **Office hours:** to be determined and by appointment
 
