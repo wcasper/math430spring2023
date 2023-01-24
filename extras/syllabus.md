@@ -13,13 +13,13 @@ permalink: /extras/syllabus
 
 **Office hourse:** To be announced.  Additional office hours are always available by request.
 
-**Course website:** we will use Canvas website (Spring 2022 MATH 407-1 18421), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math407spring2022">Github Pages site (link)</a> which you may find more convenient for pulling material.
+**Course website:** we will use Canvas website (Spring 2023 MATH 407-1 18421), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math430spring2023">Github Pages site (link)</a> which you may find more convenient for pulling material.
 
 ## Course meeting information
 * Section: 01
 * Course ID: 19501
 * Time: TTh 4:00PM-5:15PM
-* Meeting Dates: 01/21/2022-05/12/2022
+* Meeting Dates: 01/21/2023-05/12/2023
 * Location: MH 563
 
 ## Course catalog description
@@ -109,21 +109,42 @@ If you have an accommodation from Disability Support Services (such as time-and-
 There will be three midterm exams, each lasting 1 hour.
 Each midterm will be worth 15\% of your final grade.
 Midterms will be held during class time on the following dates:
-* Wednesday, September 21, 2022
-* Wednesday, October 19, 2022
-* Wednesday, November 16, 2022
+* Wednesday, February 15, 2023
+* Wednesday, March 1, 2023
+* Wednesday, March 29, 2023
 
 **Final Exam**
 The final exam will be cumulative with both written and computational parts, and will account for 30\% of your grade.
 It will be held Wednesday, December 14 from 5PM-6:50PM
 
 ## Important academic calendar dates
-* 08/20/2022  Instruction begins. Last registration (with $25 late fee) begins through TITAN Online.
-* 08/28/2022  Last day students will be enrolled from waitlist.
-* 09/06/2022  Last day of late registration with $25 late fee. Last day to add most classes with registration permit through TITAN Online.
-* 09/06/2022  Last day to drop classes without a grade of “W” See Registration pages for details.
-* 11/10/2022  Final deadline to submit a withdrawal request from classes with a grade of “W” for serious and compelling reasons.
-* 12/02/2022  Final deadline to submit a withdrawal request of “W” for medical reasons.
+* 01/21/2023: First Day of Classes
+
+* 01/29/2023: Last day students will be enrolled from waitlist.
+
+* 01/30/2023 to 02/06/2023: Department-issued registration permit to register and add all classes.  Registration is through TITAN Online > Student Homepage. All permits issued in week two expire at midnight; Monday, February 6.
+
+* 02/05/2023:  Deadline to apply for graduation through the student homepage for May 2023 bachelor's degree candidates.
+
+* 02/06/2023: Last day of late registration with $25 late fee. Last day to add most classes with registration permit through Titan Online > Student Homepage. Last day to declare audit and grading basis. Last day to drop classes without a grade of 'W.' Last day for refund if status is reduced from full-time to part-time (6 or fewer units). All permits issued during the first and second week of classes EXPIRE at midnight.
+
+* 02/07/2023: Students submit the online Late Add Request to add classes with a $20 Late Add fee. Student submit the Online Withdrawal Request to drop classes with a 'W' grade.
+
+* 02/13/2023: Deadline to file online graduation check application for May 2023 master's and doctorate degree.
+
+* 02/21/2023: Census date.  Last day to submit a Late Add Request with $20 Late Add Fee. Last day for departments to approve undergraduates candidacy for May 2023.  Last day for Excess Unit approval for graduating seniors.
+
+* 02/25/2023: Last day for undergraduate students to pay $115 graduation fee for May 2023.
+
+* 03/01/2023: Deadline to apply for graduation to receive priority Fall 2023 registration.
+
+* 04/06/2023: Last day to receive a pro-rated refund of mandatory fees for complete withdrawal from classes.
+
+* 04/21/2023: Final deadline to submit a withdrawal request from classes with a grade of 'W' for a serious non-medical reason.
+
+* 05/05/2023: Final deadline to submit a withdrawal request of 'W' for medical reasons.
+
+* 05/12/2023: Last day of class instruction.
 
 ## Academic integrity
 Students who violate university standards of academic integrity are subject to disciplinary sanctions, including failure in the course and suspension from the university. Since dishonesty in any form harms the individual, other students, and the university, policies on academic integrity are strictly enforced. Examples of academic dishonesty include, but are not limited to:
