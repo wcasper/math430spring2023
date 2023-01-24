@@ -110,8 +110,8 @@ There will be three midterm exams, each lasting 1 hour.
 Each midterm will be worth 15\% of your final grade.
 Midterms will be held during class time on the following dates:
 * Wednesday, February 15, 2023
-* Wednesday, March 1, 2023
-* Wednesday, March 29, 2023
+* Wednesday, March 15, 2023
+* Wednesday, April 12, 2023
 
 **Final Exam**
 The final exam will be cumulative with both written and computational parts, and will account for 30\% of your grade.
