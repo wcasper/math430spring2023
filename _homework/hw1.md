@@ -39,7 +39,7 @@ Let $$n\geq k\geq 0$$ be integers.
 Prove the following facts about binomial coefficients.
 
 * (A) $$\sum_{k=0}^n\binom{n}{k} = 2^n.$$
-* (B) $$\sum_{k=0}^n(-1)^k\binom{n}{k} = 2^n.$$
+* (B) $$\sum_{k=0}^n(-1)^k\binom{n}{k} = 0.$$
 * (C) $$\sum_{k=0}^n k\binom{n}{k} = n2^{n-1}.$$
 
 **Problem 5:** 
