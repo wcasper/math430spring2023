@@ -99,8 +99,7 @@ $$\begin{align*}
   &= (x+y)(x+y)^m\\
   &= (x+y)\sum_{k=0}^m\binom{m}{k}x^ky^{m-k}\\
   &= x\sum_{k=0}^m\binom{m}{k}x^ky^{m-k} + y\sum_{k=0}^mx^ky^{m-k}\\
-  &= \sum_{k=0}^m\binom{m}{k}x^{k+1}y^{m-k} + \sum_{k=0}^m\binom{m}{k}x^ky^{m-k+1}\\
-  &= x^{m+1} + \sum_{k=0}^{m-1}\binom{m}{k}x^{k+1}y^{m-k} + \sum_{k=1}^m\binom{m}{k}x^ky^{m-k+1} + y^{m+1}.
+  &= \sum_{k=0}^m\binom{m}{k}x^{k+1}y^{m-k} + \sum_{k=0}^m\binom{m}{k}x^ky^{m-k+1}
 \end{align*}$$
 
 Now by reindexing the first sum, we get
