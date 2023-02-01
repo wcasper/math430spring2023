@@ -63,7 +63,7 @@ Then this would mean
 
 $$x-(q+1)b = x-qb-q = r-q\geq 0.$$
 
-In particular, $$r-q$$ is an element of $$S$$ less than $$r$, contradicting the defintion of $$r$$.
+In particular, $$r-q$$ is an element of $$S$$ less than $$r$$, contradicting the defintion of $$r$$.
 Hence $$r < b$$.
 
 To complete the proof, we need to show that the values of $$q$$ and $$r$$ that we found above are unique.
