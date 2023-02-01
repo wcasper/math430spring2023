@@ -79,7 +79,7 @@ In particular $$(q-q')b = -(r-r')$$.  Since both $$r$$ and $$r'$$ are nonnegativ
 
 $$|q-q'|b = |r-r'| < b.$$
 
-Therefore $$ |q-q'| < 1$$, forcing $$q=q'$$.  Inserting this in the previous equation, we get $$r=r'$$ also.
+Therefore $$\lvert q-q'\rvert < 1$$, forcing $$q=q'$$.  Inserting this in the previous equation, we get $$r=r'$$ also.
 
 
 **Problem:** Show that $$n(n+1)/2$$ is an integer for all integers $$n$$.
