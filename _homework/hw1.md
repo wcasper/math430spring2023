@@ -28,7 +28,7 @@ $$(1 + a)^n\geq 1+na.$$
 **Problem 3:**
 
 Kelly collects colorful sea shells on the beach, which she separates into bags to sell.
-In her experience, as long as she collects at least $$8$$ shells, she is able
+In her experience, as long as she collects at least $$12$$ shells, she is able
 to separate them into bags, each of which contains $$4$$ or $$5$$ shells, with
 no shells left over afterward.
 Use strong induction to prove that this will always be true.
