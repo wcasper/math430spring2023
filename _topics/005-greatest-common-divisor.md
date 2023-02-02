@@ -18,7 +18,7 @@ The following theorem captures some basic properties of divisors.
 * (c) if $$a\mid b$$ and $$c\mid d$$, then $$ac\mid bd$$
 * (d) if $$a\mid b$$ and $$b\mid c$$ then $$a\mid c$$
 * (e) $$a\mid b$$ and $$b\mid a$$ if and only if $$a = \pm b$$
-* (f) if $$a\mid b$$ and $$b\neq 0$$ then $$|a|\leq |b|$$
+* (f) if $$a\mid b$$ and $$b\neq 0$$ then $$\lvert a\rvert \leq \lvert b\rvert$$
 * (g) if $$a\mid b$$ and $$a\mid c$$ then $$a\mid (bx + cy)$$ for all integers $$x$$ and $$y$$
 
 As a more general version of (g), we have the following.
