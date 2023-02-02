@@ -15,7 +15,7 @@ title: Math 430 Number Theory
 
 **Course meetings:** Tuesday and Thursday 4:00PM-5:15PM
 
-**Office hours:** to be determined and by appointment
+**Office hours:** Tuesdays and Thursdays Noon-2PM and by appointment
 
 **Zoom number for remote office hours:** <a target="_parent" href="https://fullerton.zoom.us/j/9339191166">9339191166</a>
 
