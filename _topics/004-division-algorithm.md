@@ -84,7 +84,7 @@ Therefore $$\lvert q-q'\rvert < 1$$, forcing $$q=q'$$.  Inserting this in the pr
 
 **Problem:** Show that $$n(n+1)/2$$ is an integer for all integers $$n$$.
 
-**Problem:** Show that $$n(n^2+1)/3$$ is an integer for all integers $$n$$.
+**Problem:** Show that $$n(n^2+2)/3$$ is an integer for all integers $$n$$.
 
 
 
