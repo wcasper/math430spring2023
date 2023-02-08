@@ -181,7 +181,7 @@ $$3\sum_{k=2}^{n+1} k(k-1) = (n+2)(n+1)n.$$
 
 Remembering our formula for the triangular numbers, we know $$k(k-1) = 2t_{k-1}$$ and therefore
 
-$$6\sum_{k=2}^{n+1} t_{k-1} = (n+1)n(n-1).$$
+$$6\sum_{k=2}^{n+1} t_{k-1} = (n+2)(n+1)n.$$
 
 This is exactly what we wanted to prove.
 
