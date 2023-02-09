@@ -19,7 +19,7 @@ Prove that for any integer $$n>1$$, the integer $$(10^n-1)/9$$ is not a perfect 
 
 **Problem 2:**
 
-For any integer $a>0$, show that $$7a^3+5a$$ is divisible by $$6$$.
+For any integer $$a>0$$, show that $$7a^3+5a$$ is divisible by $$6$$.
 
 **Problem 3:**
 
