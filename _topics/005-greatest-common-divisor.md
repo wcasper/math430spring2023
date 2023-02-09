@@ -78,5 +78,41 @@ Likewise, we can get a characterization of what part of the product of a pair of
 
 **Euclid's Lemma:** If $$a \mid bc$$ with $$\gcd(a,b) = 1$$ then $$a\mid c$$.
 
+## Least common multiple
+
+When comparing pairs of numbers $$a,b$$ we often consider a quantity related to their greatest common divisor, called their least common multiple.
+
+**Definition:** The **least common multiple** of a collection of integers $$a_1,\dots, a_n$$ is an integer $$m > 0$$ satisfying the following two properties:
+* $$a_k \mid m$$ for all $$1\leq k \leq n$$ 
+* if $$c > 0$$ satisfies $$a_k \mid c$$ for all $$1\leq k\leq n$$ then $$m\geq c$$
+
+Notationally, we denote the least common multiple as $$\lcm(a_1,a_2,\dots, a_n).$$
+
+The greatest common divisor and least common multiple of a pair of integers are related by the following result.
+
+**Theorem:** Let $$a$$ and $$b$$ be positive integers.  Then
+
+$$\gcd(a,b)\lcm(a,b) = ab.$$
+
+**Proof:**
+
+Let $$d = \gcd(a,b)$$ and consider $$m = ab/d$$.  We must show that $$m = \lcm(a,b)$.
+
+Since $$d$$ divides both $$a$$ and $$b$$, there exist integers $$p$$ and $$q$$ with $$a = pd$$ and $$b = qd$$.  It follows that $$m = pb = aq$$, so $$m$$ divisible by both $$a$$ and $$b$$.
+
+Now suppose $$c>0$$ is divisible by both $$a$$ and $$b$$.
+We know that there exist integers $$x,y$$ with $$d = ax + by$$.  Therefore
+
+$$\frac{c}{m} = \frac{cd}{ab} = \frac{c(ax + by)}{ab} = \frac{c}{b}x + \frac{c}{a}y.$$
+
+Since the right hand side is an integer, this proves $$m$$ must divide $$c$$ and therefore $$m\leq c$$.
+Thus $$m = lcm(a,b)$$.
+:black_square_button:
+
+Note that in the proof, we actually showed the following fact:
+
+* if $$c > 0$$ is divisible by both $$a$$ and $$b$$, then $$\gcd(a,b)\mid c$$
+
+This is sometimes used as the *definition* of the least common multiple.
 
 
