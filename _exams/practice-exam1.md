@@ -53,6 +53,6 @@ Prove that $$3a^2+2$$ cannot be a perfect square.
 
 ## Problem 7
 
-Let $$F_1, F_2,\dots$$ be the Fibonacci numbers.  Prove that the greatest common divisor of $$F_k+F_{k+1}$$ is always $$1$$.
+Let $$F_1, F_2,\dots$$ be the Fibonacci numbers.  Prove that the greatest common divisor of $$F_k$$ and $$F_{k+1}$$ is always $$1$$.
 
 
