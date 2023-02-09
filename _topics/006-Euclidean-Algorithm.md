@@ -45,12 +45,12 @@ It is clear from the above system that $$r_n$$ divides $$r_k$$ for all $$k$$.  C
 
 Putting the equations together, we also find that
 
-\begin{align*}
+$$\begin{align*}
 r_n
   & = r_{n-2} - q_nr_{n-1}\\
   & = r_{n-2} - q_n(r_{n-3}-q_{n-1}r_{n-2}) = (1-q_nq_{n-1})r_{n-2} - q_nr_{n-3}\\
   & \dots
-\end{align*}
+\end{align*}$$
 
 In this way, we will obtain an explicit expression of the form
 
