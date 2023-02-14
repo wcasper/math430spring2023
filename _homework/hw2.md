@@ -62,4 +62,9 @@ Use the Euclidean algorithm to find integers $$x$$ and $$y$$ satisfying
 
 Let $$a,b,n$$ be integers with $$n\geq 1$$.  Prove that if $$a^n \mid b^n$$ then $$a \mid b$$.
 
+* Hint: use the following proposition, proved in class
+
+**Proposition:** If $$a,b$$ and $$n$$ are positive integers, then $$\gcd(a^n,b^n) = \gcd(a,b)^n$$.
+
+
 
