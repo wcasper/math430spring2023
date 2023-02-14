@@ -69,7 +69,7 @@ From the work of (a), we calculate
 $$\begin{align*}
 37 & = 222-185\\
    & = 222-(851-3\cdot 222)\\
-   & = 5\cdot 222 + (-1)\cdot 851
+   & = 4\cdot 222 + (-1)\cdot 851
 \end{align*}$$
 
 ## Problem 4
