@@ -20,7 +20,7 @@ c) Every integer is divisible by $$0$$
 
 d) $$\gcd(-33,-21) = -3$$
 
-e) $$(15-6q,6) = 3$$ for any integer $$q$$
+e) $$\gcd(15-6q,6) = 3$$ for any integer $$q$$
 
 ## Problem 2
 

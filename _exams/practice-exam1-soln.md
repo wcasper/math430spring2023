@@ -28,7 +28,7 @@ d) $$\gcd(-33,-21) = -3$$
 
 **FALSE**
 
-e) $$(15-6q,6) = 3$$ for any integer $$q$$
+e) $$\gcd(15-6q,6) = 3$$ for any integer $$q$$
 
 **TRUE**
 
