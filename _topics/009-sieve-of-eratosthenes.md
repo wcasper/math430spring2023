@@ -80,7 +80,7 @@ For example, this estimate says that there are at least $$14$$ double-digit prim
 
 <p align="center"><img src="fig/sieve.jpg"/></p>
 
-As a futhr refinement of the questions explored above, one could try to answer the question of what the prime numbers between $$2$$ and $$n$$ are, for a given integer $$n$$.
+As a futher refinement of the questions explored above, one could try to answer the question of what the prime numbers between $$2$$ and $$n$$ are, for a given integer $$n$$.
 
 The ancient Greeks had a simple, iterative algorithm for finding the prime numbers up to a given order.
 1. Create a list of all numbers between $$2$$ and a fixed integer $$n$$.
