@@ -68,7 +68,7 @@ $$\sum_{j=1}^{k_p}\lfloor 2n/p^j\rfloor - 2\lfloor n/p^j\rfloor.$$
 Each of the terms in the summand is no larger than $$1$$, so the number of times $$p$$ occurs in the factorization of $$\binom{2n}{n}$$ is no more than $$k_p$$.
 Hence
 
-$$\binom{2n}{n}\leq \prod_{p\leq 2n\ \text{prime}} p^{k_p} \leq (2n)^{\pi(2n)}.
+$$\binom{2n}{n}\leq \prod_{p\leq 2n\ \text{prime}} p^{k_p} \leq (2n)^{\pi(2n)}.$$
 
 Using this inequality, we obtain a lower bound for $$\pi(n)$$.
 
