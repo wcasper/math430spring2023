@@ -93,4 +93,18 @@ The ancient Greeks had a simple, iterative algorithm for finding the prime numbe
 
 **Check:** Try using the sieve of Erastothenes to find all the two-digit primes.
 
+## The biggest primes
+
+Not all primes are known.  In fact, only a finite number are known as of today with the biggest known examples being of the special form $$2^n-1$$ for some integer $$n$$.
+
+**Definition:** A prime number of the form $$2^n-1$$ is called a Mersenne prime.
+
+Unfortunately, not every number of this form is prime.
+Indeed, the value of $$n$$ must be very special, as can be seen from the following theorem which demonstrates an intriguing relationship between Mersenne primes and perfect numbers (numbers equal to the sum of their divisors).
+
+**Theorem:** If $$2^n-1$$ is a Mersenne prime, then $$2^{n-1}(2^n-1)$$ is a perfect number.  Conversely, every perfect number is of this form for some Mersenne prime $$p$$.
+
+The search for larger and larger Mersenne primes is ongoing, and is lead by the Great Internet Mersenne Primes Search (GIMPS), where users donate their personal computing time toward the task.
+As of today, the largest prime number is $$2^{82,589,933} − 1$$
+a number which has 24,862,048 digits.
 
