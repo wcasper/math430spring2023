@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sieve of Eratosthenes
+title: Congruence
 ---
 
 The notion of congruence of integers was defined by Gauss to study the behavior of remainders.
