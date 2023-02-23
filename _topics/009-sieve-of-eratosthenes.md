@@ -70,9 +70,11 @@ Hence
 
 $$\binom{2n}{n}\leq \prod_{p\leq 2n\ \text{prime}} p^{k_p} \leq (2n)^{\pi(2n)}.$$
 
-Using this inequality, we obtain a lower bound for $$\pi(n)$$.
+Furthermore, $$2^n\leq \binom{2n}{n}$$.
 
-**Theorem (Chebyshev):**  $$\pi(2n)\geq \frac{1}{\log(2n)}\log\binom{2n}{n}.$$
+Using this inequality, combined with $$2^n\leq \binom{2n}{n}$$, we obtain a lower bound for $$\pi(n)$$.
+
+**Theorem (Chebyshev):**  $$\pi(2n)\geq \frac{n\log(2)}{\log(2n)}.$$
 
 For example, this estimate says that there are at least $$14$$ double-digit prime numbers.  (Actually there are $$25$$).  
 
