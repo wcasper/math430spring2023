@@ -31,7 +31,7 @@ These have many great applications in the world of numbers, as the following exa
 
 **Example Problem:**  Show that $$41$$ divides $$2^{20}-1$$.
 
-**Solution:**  Equivalently, we must show that $$2^{20}\equv 1\mod 41$$.
+**Solution:**  Equivalently, we must show that $$2^{20}\equiv 1\mod 41$$.
 We can see $$2^5 = 32 \equiv -9\mod 41$$.  Therefore
 
 $$2^{20} = (2^5)^4 \equiv (-9)^4\mod 41.$$
