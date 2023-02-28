@@ -23,13 +23,6 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 
 Show that if $$n$$ is the product of three or more primes, then $$n$$ must be divisible by a prime $$p$$ with $$1\leq p\leq \sqrt[3]{n}$$.
 
-**Problem:**
-
-Let $$m>1$$ be an integer and $$p$$ be prime.  Choose $$k\geq 0$$ such that $$p^k \leq m < p^{k+1}$$.
-Prove that the number of times $$p$$ divides $$m!$$ is
-
-$$\sum_{j=1}^k \lfloor m/p^j \rfloor.$$
-
 
 **Problem 3:**
 
@@ -58,5 +51,12 @@ Use congruence to prove
 
 $$89\mid 2^{44}-1\quad\text{and}\quad 97\mid 2^{48}-1.$$
 
+
+**Problem: 7**
+
+Let $$m>1$$ be an integer and $$p$$ be prime.  Choose $$k\geq 0$$ such that $$p^k \leq m < p^{k+1}$$.
+Prove that the number of times $$p$$ divides $$m!$$ is
+
+$$\sum_{j=1}^k \lfloor m/p^j \rfloor.$$
 
 
