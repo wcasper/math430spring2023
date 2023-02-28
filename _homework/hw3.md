@@ -15,7 +15,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 
 **Problem 1:**
 
-* (A) Prove that if $$n>1$$ is an integer, then any proper prime divisor $$p$$ will satisfy $$1\leq p\leq\sqrt{n}$$.
+* (A) Prove that if $$n>1$$ is a composite integer, then it must have a prime divisor $$p$$ with $$1 <  p\leq\sqrt{n}$$.
 * (B) Determine whether $$701$$ is prime by testing its divisibility by all primes $$\leq \sqrt{701} \approx 26.476$$
 * (C) Determine whether $$1009$$ is prime by testing its divisibility by all primes $$\leq \sqrt{1009} \approx 31.76$$
 
