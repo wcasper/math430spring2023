@@ -163,6 +163,7 @@ Right away, we get $$a=1$$, $$b=3$$ and $$c=1$$ so that
 $$n = 1\cdot 5\cdot 7+ 3\cdot 3\cdot 7 + 1\cdot 3\cdot 5 = 113$$
 
 Is a solution.  We can get more solutions by adding on any multipl of $$3\cdot 5\cdot 7 = 105$$.  In particular $$113-105 = 8$$ is also a solution.
+:black_square_button:
 
-
+Thus we see that the Chinese Remainder Theorem is really an integer version of the statement that we can create a polynomial with prescribed Taylor series of finite degree at some finite collection of points.
 
