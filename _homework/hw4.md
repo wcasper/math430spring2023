@@ -31,7 +31,7 @@ Convert each of the following numbers to the specified base.
 
 * (A) $$127$$ to base $$2$$
 * (B) $$1010101_2$$ to base $$10$$
-* (C) $$$233$$ to base $$6$$.
+* (C) $$233$$ to base $$6$$.
 
 **Problem 5:** 
 
