@@ -47,5 +47,19 @@ Solve each of the following
 * (A) $$x = 5 \mod 11$$, $$x = 14 \mod 29$$, $$x = 15 \mod 31$$,
 * (B) $$x = 5 \mod 6$$, $$x =4 \mod 11$$, $$x = 3 \mod 17$$.
 
+**Problem 7:** (Brahmagupta, 7th century A.D.)
 
+When eggs in a basket are removed 2,
+ 3, 4, 5, 6 at a
+time there remain, respectively, 1, 2, 3, 4, 5 eggs. When they are taken out 7 at a time,
+none are left over. Find the smallest number of eggs that could have been contained in
+the basket.
+
+**Problem 8:** (Ancient Chinese Problem.) A band of
+ 17 pirates stole a sack of gold coins. When they
+tried to divide the fortune into equal portions, 3 coins remained.In the ensuing brawl over
+who should get the extra coins, one pirate was killed. The wealth was redistributed, but
+this time an equal division left 10 coins. Again an argument developed in which another
+pirate was killed. But now the total fortune was evenly distributed among the survivors.
+What was the least number of coins that could have been stolen?
 
