@@ -19,7 +19,7 @@ Prove that a number is divisible by $$3$$ if and only if the sum of its digits (
 
 **Problem 2:**
 
-Determine the last two digits of $$9^{9^9}$$.  [Hint: first considr the value of the exponent $$9^9$$ modulo $$10$$.
+Determine the last two digits of $$9^{9^9}$$.  [Hint: first consider the value of the exponent $$9^9$$ modulo $$10$$.]
 
 **Problem 3:**
 
