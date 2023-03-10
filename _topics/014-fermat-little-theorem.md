@@ -130,7 +130,7 @@ Despite our ability to construct arbitrarily large pseudoprimes, they actually s
 Absolute pseudoprimes, ie. Charmichael numbers, are even rarer.
 To produce a Charmichael number, we can use the condition established by the following theorem.
 
-**Theorem:** Suppose that $$n=p_1p_2\dots p_r$$ for some *distinct* primes $$p_1,\dots, p_r$$ (this is called being square-free).  If $$p_i-1 | n-1$$ for all $$i$$, then $$n$$ is a Charmichael number.
+**Theorem:** Suppose that $$n=p_1p_2\dots p_r$$ for some *distinct* primes $$p_1,\dots, p_r$$ (this is called being square-free).  If $$p_i-1 \mid n-1$$ for all $$i$$, then $$n$$ is a Charmichael number.
 
 **Proof:** Let $$a\in\mathbb Z$$.  We need to show that $$a^n=a\mod n$$, ie. that $$n\mid a^n-a$$.  Since all of the primes are distinct, it suffices to show that $$p_i\mid a^n-a$$ for all $$i$$.
 
