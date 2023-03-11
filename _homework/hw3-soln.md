@@ -160,7 +160,7 @@ $$\begin{align}
  & = \sum_{j=1}^k j\lvert \{x: 1\leq x \leq m,\ \nu_p(x)=j\} \rvert\\
  & = \sum_{j=1}^k j\lvert \{x: 1\leq x \leq m,\ p^j\mid x,\ p^{j+1}\nmid x\} \rvert\\
  & = \sum_{j=1}^k j(\lvert \{x: 1\leq x \leq m,\ p^j\mid x\}\rvert - \lvert\{x: 1\leq x \leq m,\ p^{j+1}\nmid x\} \rvert)\\
- & = \sum_{j=1}^k j(\lfloor m/p^j \rfloor - \lfoor m/p^{j+1}\rfloor)\\
+ & = \sum_{j=1}^k j(\lfloor m/p^j \rfloor - \lfloor m/p^{j+1}\rfloor)\\
  & = \sum_{j=1}^k \lfloor m/p^j \rfloor
 \end{align}$$
 
