@@ -125,7 +125,7 @@ Therefore $$2^{44}-1$$ is divisible by $$89$$.
 
 We can also write
 
-$$2^{48}-1 = (2^{24}-1)(2^{24}+1})$$
+$$2^{48}-1 = (2^{24}-1)(2^{24}+1)$$
 
 Furthermore,
 
