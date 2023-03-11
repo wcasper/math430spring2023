@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Practice Exam 2
-permalink: /exams/practice-exam2
+title: Practice Exam 2 Solution
+permalink: /exams/practice-exam2-soln
 ---
 
 Solve each of the following problems.
