@@ -45,7 +45,12 @@ The convolution of multiplicative functions is multiplicative.
 
 Suppose that $$m$$ and $$n$$ are relatively prime.  If $$a\mid m$$ and $$b\mid n$$ then $$ab\mid mn$$.  Conversely, suppose that $$d\mid mn$$.  Write $$d=p_1^{k_1}\dots p_r^{k_r}$$.  Then for each $$j$$, $$p_j$$ divides either $$m$$ or $$n$$, but not both.  Therefore we can write $$d = ab$$ where $$a = \prod_{j: p_j\mid m}p_j^{k_j}$$ and $$b = \prod_{j: p_j\mid n}p_j^{k_j}$$.  Thus
 
-$$(f*g)(mn) = \sum_{d\mid mn} f(d)g(mn/d) = \sum_{a\mid m}\sum_{b\mid n} f(ab)g(mn/ab) = \sum_{a\mid m}\sum_{b\mid n} f(a)f(b)g(m/a)g(n/b) = \left(\sum_{a\mid m}f(a)g(m/a)\right)\left(\sum_{b\mid n} f(b)g(n/b)\right) = (f*g)(m)(f*g)(n).$$
+$$\begin{align}
+(f*g)(mn) 
+  & = \sum_{d\mid mn} f(d)g(mn/d) = \sum_{a\mid m}\sum_{b\mid n} f(ab)g(mn/ab)\\
+  & = \sum_{a\mid m}\sum_{b\mid n} f(a)f(b)g(m/a)g(n/b)\\
+  & = \left(\sum_{a\mid m}f(a)g(m/a)\right)\left(\sum_{b\mid n} f(b)g(n/b)\right) = (f*g)(m)(f*g)(n).
+\end{align}$$
 
 :black_square_button:
 
@@ -67,7 +72,7 @@ In particular, $$\tau$$ is the convolution of the constant function $$1$$ with i
 
 **Example:** The divisors of $$30$$ are $$1,2,3,5,6,10,15$$ and $$30$$.
 
-$$\tau(30) = 8,\quad \sigma(30) = 1+2+3+5+6+10+15 = 42,\quad \mu(30) = 1.$$
+$$\tau(30) = 8,\quad \sigma(30) = 1+2+3+5+6+10+15+30 = 72,\quad \mu(30) = 1.$$
 
 ## Identities for divisor functions
 
