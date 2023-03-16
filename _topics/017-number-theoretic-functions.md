@@ -21,7 +21,19 @@ $$\mu(n) = \left\lbrace\begin{array}{cc}
 
 $$\tau(30) = 8,\quad \sigma(30) = 1+2+3+5+6+10+15 = 42,\quad \mu(30) = 1.$$
 
-These special number-theoretic functions have some very curiouus properties and appear in many examples of striking identities.
+These special number-theoretic functions have some very curious properties and appear in many examples of striking identities.
+Many of these identities will involve taking a sum or a product over the number of divisors, so we establish the following notation.
+
+**Notation:** We will write $$\sum_{d\mid n} f(d)$$ and $$\prod_{d\mid n} f(d)$$ to mean the sum / product of $$f(d)$$ as $$d$$ ranges over all divisors of $$n$$.
+
+For example
+
+$$\begin{align}
+\sum_{d\mid 6} f(d) &= f(1) + f(2) + f(3) + f(6)\\
+\prod_{d\mid 6} f(d) &= f(1)f(2)f(3)f(6)
+\end{align}$$
+
+## Identities for special number-theoretic functions
 To start, we can get some very interesting expressions for $$\tau$$ and $$\sigma$$ in terms of the prime factorization of $$n$$.
 
 **Theorem:**  Let $$n$$ be a positive integer with prime factorization
@@ -73,5 +85,10 @@ $$\begin{align}
   &= \left(\sum_{a_1=0}^{k_1}p_1^{a_1}\right)\left(\sum_{a_2=0}^{k_2}p_2^{a_2}\right)\dots\left(\sum_{a_r=0}^{k_r}p_r^{a_r}\right)\\
   &= \frac{p_1^{k_1+1}-1}{p_1-1}\frac{p_1^{k_2+1}-1}{p_2-1}\dots\frac{p_r^{k_r+1}-1}{p_r-1}
 \end{align}$$
+
+:black_square_button:
+
+
+
 
 
