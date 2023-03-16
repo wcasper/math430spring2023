@@ -61,6 +61,17 @@ $$\begin{align}
 \sigma(n) &= \frac{p_1^{k_1+1}-1}{p_1-1}\frac{p_1^{k_2+1}-1}{p_2-1}\dots\frac{p_r^{k_r+1}-1}{p_r-1}
 \end{align}$$
 
+**Proof:**
 
+Since each divisor is of the form $$p_1^{a_1}p_2^{a_2}\dots p_r^{a_r}$$, and $$a_j$$ can take values $$0\leq a_j\leq k_j$$ ($$k_j+1$$ possibilities), there are $$(k_1+1)(k_2+1)\dots (k_r+1)$$ divisors of $$n$$.
+
+Furthermore, the sum of the divisors is
+
+$$\begin{align}
+\sigma(n)
+  &= \sum_{a_1=0}^{k_1}\sum_{a_2=0}^{k_2}\dots\sum_{a_r=0}^{k_r}p_1^{a_1}p_2^{a_2}\dots p_r^{a_r}\\
+  &= \left(\sum_{a_1=0}^{k_1}p_1^{a_1}\right)\left(\sum_{a_2=0}^{k_2}p_2^{a_2}\right)\dots\left(\sum_{a_r=0}^{k_r}p_r^{a_r}\right)\\
+  &= \frac{p_1^{k_1+1}-1}{p_1-1}\frac{p_1^{k_2+1}-1}{p_2-1}\dots\frac{p_r^{k_r+1}-1}{p_r-1}
+\end{align}$$
 
 
