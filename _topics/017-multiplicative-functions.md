@@ -31,21 +31,27 @@ $$\begin{align}
 \prod_{d\mid 6} f(d) &= f(1)f(2)f(3)f(6)
 \end{align}$$
 
-With this notation in mind, we have the following theorem.
+Using this notation, we can define the *convolution* of two functions
 
-**Theorem:** Let $$f(n)$$ be a multiplicative function.  Then
+**Definition:** Let $$f(n)$$ and $$g(n)$$ be two number-theoretic functions.  The **Dirichlet convolution** of $$f$$ and $$g$$ is
 
-$$F(n) = \sum_{d\mid n} f(d)$$
+$$(f*g)(n) = \sum_{d\mid n} f(d)g(n/d).$$
 
-is also a multiplicative function.
+The convolution of multiplicative functions is multiplicative.
+
+**Theorem:** Let $$f$$ and $$g$$ be multiplicative functions.  Then $$f*g$$ is multiplicative.
 
 **Proof:**
 
 Suppose that $$m$$ and $$n$$ are relatively prime.  If $$a\mid m$$ and $$b\mid n$$ then $$ab\mid mn$$.  Conversely, suppose that $$d\mid mn$$.  Write $$d=p_1^{k_1}\dots p_r^{k_r}$$.  Then for each $$j$$, $$p_j$$ divides either $$m$$ or $$n$$, but not both.  Therefore we can write $$d = ab$$ where $$a = \prod_{j: p_j\mid m}p_j^{k_j}$$ and $$b = \prod_{j: p_j\mid n}p_j^{k_j}$$.  Thus
 
-$$F(mn) = \sum_{d\mid mn} f(d) = \sum_{a\mid m}\sum_{b\mid n} f(ab) = \sum_{a\mid m}\sum_{b\mid n} f(a)f(b) = \left(\sum_{a\mid m}f(a)\right)\left(\sum_{b\mid n} f(b)\right) = F(m)F(n).$$
+$$(f*g)(mn) = \sum_{d\mid mn} f(d)g(mn/d) = \sum_{a\mid m}\sum_{b\mid n} f(ab)g(mn/ab) = \sum_{a\mid m}\sum_{b\mid n} f(a)f(b)g(m/a)g(n/b) = \left(\sum_{a\mid m}f(a)g(m/a)\right)\left(\sum_{b\mid n} f(b)g(n/b)\right) = (f*g)(m)(f*g)(n).$$
 
 :black_square_button:
+
+This makes the set of multiplicative functions into a group with identity
+
+$$\varepsilon(n) = \left\lbrace\begin{array}{cc} 1 & n=1\\0 & n\neq 1\end{array}\right.$$
 
 Using this, we can immediately get two very interesting examples of multiplicative functions
 
@@ -56,6 +62,8 @@ $$\tau(n) = \sum_{d\mid n} 1.$$
 * The **sum-of-divisors function** $$\sigma$$ takes a positive integer $$n$$ and returns the sum of the positive divisors of $$n$$.
 
 $$\sigma(n) = \sum_{d\mid n} d.$$
+
+In particular, $$\tau$$ is the convolution of the constant function $$1$$ with itself and $$\sigma$$ is the convolution of one with the identity.
 
 **Example:** The divisors of $$30$$ are $$1,2,3,5,6,10,15$$ and $$30$$.
 
