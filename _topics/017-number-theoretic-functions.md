@@ -15,7 +15,7 @@ $$\mu(n) = \left\lbrace\begin{array}{cc}
 1& \text{$n$ is square-free and has an even number of prime factors}\\
 -1& \text{$n$ is square-free and has an odd number of prime factors}\\
 0& \text{$n$ is divisible by the square of a prime}
-\end{array}.$$
+\end{array}\right.$$
 
 **Example:** The divisors of $$30$$ are $$1,2,3,5,6,10,15$$ and $$30$$.
 
