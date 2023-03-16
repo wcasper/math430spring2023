@@ -22,7 +22,7 @@ This motivates us to propose a method of factorizing integers, called Fermat's F
 1. Find the smallest value of $$k>0$$ so that $$k^2-n\geq 0$$ (this is the first integer bigger than $$\sqrt{n}$$.
 2. Increase $$k$$ by one until the expression $$k^2-n$$ is a perfect square.
 3. If we find a perfect square for $$k < (n+1)/2$$, then $$x=k$$ and $$y=\sqrt(k^2-n)$$
-4. If we get to $$k=\frac{n+1}{2}$$, then $k^2-n=\left(\frac{n-1}{2}\right)^2$$, giving us the factorization $$n=n\cdot 1$$.  In this case $$n$$ is prime.
+4. If we get to $$k=\frac{n+1}{2}$$, then $$k^2-n=\left(\frac{n-1}{2}\right)^2$$, giving us the factorization $$n=n\cdot 1$$.  In this case $$n$$ is prime.
 
 
 **Example:**
