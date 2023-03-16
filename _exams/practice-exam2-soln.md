@@ -164,11 +164,13 @@ The proof of the Chinese Remainder Theorem tells us to consider
 
 $$x = a\cdot 35 + b\cdot 21 + c\cdot 15.$$
 
-Reducing this expression mod $$3$$, we get $$a\equiv 2\mod 3$$.
-Similarly, we get $$b\equiv 1 \mod 5$$ and $$c\equiv 1\mod 7$$.
+Reducing this expression mod $$3$$, we get $$2a\equiv 2\mod 3$$ or $$a\equiv 1\mod 3$$.
+Similarly, we get $$b\equiv 4 \mod 5$$ and $$c\equiv -4\mod 7$$.
 Therefore, up to a multiple of $$210$$, we get
 
-$$x = 2\cdot 35 + 1\cdot 21 + 1\cdot 15 = 106.$$
+$$x = 1\cdot 35 + 4\cdot 21 - 4\cdot 15 = 59.$$
 
+This solution is unique up to equivalence mod $$7\cdot 5\cdot 3 = 105$$.
+Thus we actually have **two** solutions in the desired range: $$59$$ and $$164$$.
 
 
