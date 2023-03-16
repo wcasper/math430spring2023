@@ -88,7 +88,6 @@ By the Fundamental Theorem of Arithmetic, both $$b$$ and $$c$$ have prime factor
 $$b = u_1u_2\dots u_s,\quad\quad c = v_1v_2\dots v_t.$$
 
 Therefore $$bc = u_1u_2\dots u_sv_1v_2\dots v_t$$ is a prime factorization of $$n$$.  Since prime factorizations are unique (up to order), each of the $$u_j$$'s must be one of the primes $$p_i$$.  Gathering similar powers of primes, we obtain $$b = p_1^{a_1}p_2^{a_2}\dots p_r^{a_r}$$ for some integers $$a_1,\dots,a_r$$ with $$0\leq a_j\leq k_j$$ for all $$j$$.
-
 :black_square_button:
 
 Using this, we have the following theorem, giving us an explicit way to calculate the value of $$\tau(n)$$ and $$\sigma(n)$$, if we know the prime factorizations.
@@ -151,7 +150,6 @@ Multipliying these together, we get
 $$\left(\prod_{d\mid n} d\right)^2 = (d_1d_m)(d_2d_{m-1})(d_3d_{m-2})\dots (d_md_1) = n^m.$$
 
 The statement of the theorem follows immediately.
-
 :black_square_button:
 
 
