@@ -55,7 +55,7 @@ b) Prove that if $$ac\equiv bc\mod n$$ and $$\gcd(c,n) = 1$$, then $$a\equiv b\m
 
 a) Find, with justification, the last three digits of $$7^{999}$$
 
-b) Show that if $$a^2\equiv 1\mod n$$, then $$a\equiv 1$$ or $$a\equiv -1$$.
+b) Let $$p$$ be prime.  Show that if $$a^2\equiv 1\mod p$$, then $$a\equiv 1$$ or $$a\equiv -1$$.
 
 ## Problem 7
 
