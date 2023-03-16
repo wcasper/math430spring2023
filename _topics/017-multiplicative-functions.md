@@ -1,39 +1,26 @@
 ---
 layout: page
-title: Number-theoretic functions
+title: Multiplicative functions
 ---
 
 
 A **number-theoretic** or **arithmetic** function is any function whose domain is the set $$\mathbb N$$ of positive integers.
 Some examples of particularly important number-theoretic funcions are
-
-* The **number-of-divisors function** $$\tau$$ takes a positive integer $$n$$ and returns the number of positive divisors of $$n$$.
-* The **sum-of-divisors function** $$\sigma$$ takes a positive integer $$n$$ and returns the sum of the positive divisors of $$n$$.
-* The **Mobius function** $$\mu$$ takes a positive intger $$n$$ and returns
-
-$$\mu(n) = \left\lbrace\begin{array}{cc}
-1& \text{$n$ is square-free and has an even number of prime factors}\\
--1& \text{$n$ is square-free and has an odd number of prime factors}\\
-0& \text{$n$ is divisible by the square of a prime}
-\end{array}\right.$$
-
-**Example:** The divisors of $$30$$ are $$1,2,3,5,6,10,15$$ and $$30$$.
-
-$$\tau(30) = 8,\quad \sigma(30) = 1+2+3+5+6+10+15 = 42,\quad \mu(30) = 1.$$
-
-Each of these functions has the property that they *multiplicative*.
+One particularly important example of a function is called a multiplicative function.
 
 **Definition:** A number-theoretic function $$f(n)$$ is called multiplicative if
 
 $$f(mn) = f(m)f(n), \text{whenever}\ \gcd(m,n)=1.$$
 
-The fact that $$\mu(n)$$ is multiplicative is kind of obvious.
-However, the multiplicativity of $$\sigma$$ and $$\tau$$ is a little less clear and will be proved below.
+There are some very basic examples of multiplicative functions.
 
-## Identities for special number-theoretic functions
+**Example:** The constant function $$f(n) = 1$$ is multiplicative.
 
-These special number-theoretic functions have some very curious properties and appear in many examples of striking identities.
-Many of these identities will involve taking a sum or a product over the number of divisors, so we establish the following notation.
+**Example:** The identity function $$f(n) = n$$ is multiplicative.
+
+More generally, the product of multiplicative functions will also be multiplicative.
+
+To get more interesting examples of multiplicative functions, we first establish a convenient notation for sums and products over divisors.
 
 **Notation:** We will write $$\sum_{d\mid n} f(d)$$ and $$\prod_{d\mid n} f(d)$$ to mean the sum / product of $$f(d)$$ as $$d$$ ranges over all divisors of $$n$$.
 
@@ -43,6 +30,41 @@ $$\begin{align}
 \sum_{d\mid 6} f(d) &= f(1) + f(2) + f(3) + f(6)\\
 \prod_{d\mid 6} f(d) &= f(1)f(2)f(3)f(6)
 \end{align}$$
+
+With this notation in mind, we have the following theorem.
+
+**Theorem:** Let $$f(n)$$ be a multiplicative function.  Then
+
+$$F(n) = \sum_{d\mid n} f(d)$$
+
+is also a multiplicative function.
+
+**Proof:**
+
+Suppose that $$m$$ and $$n$$ are relatively prime.  If $$a\mid m$$ and $$b\mid n$$ then $$ab\mid mn$$.  Conversely, suppose that $$d\mid mn$$.  Write $$d=p_1^{k_1}\dots p_r^{k_r}$$.  Then for each $$j$$, $$p_j$$ divides either $$m$$ or $$n$$, but not both.  Therefore we can write $$d = ab$$ where $$a = \prod_{j: p_j\mid m}p_j^{k_j}$$ and $$b = \prod_{j: p_j\mid n}p_j^{k_j}$$.  Thus
+
+$$F(mn) = \sum_{d\mid mn} f(d) = \sum_{a\mid m}\sum_{b\mid n} f(ab) = \sum_{a\mid m}\sum_{b\mid n} f(a)f(b) = \left(\sum_{a\mid m}f(a)\right)\left(\sum_{b\mid n} f(b)\right) = F(m)F(n).$$
+
+:black_square_button:
+
+Using this, we can immediately get two very interesting examples of multiplicative functions
+
+* The **number-of-divisors function** $$\tau$$ takes a positive integer $$n$$ and returns the number of positive divisors of $$n$$.
+
+$$\tau(n) = \sum_{d\mid n} 1.$$
+
+* The **sum-of-divisors function** $$\sigma$$ takes a positive integer $$n$$ and returns the sum of the positive divisors of $$n$$.
+
+$$\sigma(n) = \sum_{d\mid n} d.$$
+
+**Example:** The divisors of $$30$$ are $$1,2,3,5,6,10,15$$ and $$30$$.
+
+$$\tau(30) = 8,\quad \sigma(30) = 1+2+3+5+6+10+15 = 42,\quad \mu(30) = 1.$$
+
+## Identities for divisor functions
+
+These special number-theoretic functions have some very curious properties and appear in many examples of striking identities.
+
 To start, we can get some very interesting expressions for $$\tau$$ and $$\sigma$$ in terms of the prime factorization of $$n$$.
 
 **Theorem:**  Let $$n$$ be a positive integer with prime factorization
@@ -69,7 +91,7 @@ Therefore $$bc = u_1u_2\dots u_sv_1v_2\dots v_t$$ is a prime factorization of $$
 
 :black_square_button:
 
-Using this, we have the following theorem.
+Using this, we have the following theorem, giving us an explicit way to calculate the value of $$\tau(n)$$ and $$\sigma(n)$$, if we know the prime factorizations.
 
 **Theorem:**  Let $$n$$ be a positive integer with prime factorization
 
@@ -105,26 +127,7 @@ $$\tau(320) = 7\cdot 2 = 14,$$
 
 $$\sigma(320) = \frac{2^7-1}{2-1}\frac{5^2-1}{5-1} = 128\cdot 6 = 768.$$
 
-As another example, we can consider the product of all the divisors of an integer $$n$$.
-
-As an immediate consequence of this, we get that $$\tau$$ and $$\sigma$$ are multiplicative.
-
-**Theorem:**  The functions $$\tau$$ and $$\sigma$$ are multiplicative.
-
-**Proof:** Suppose that $$m$$ and $$n$$ are relatively prime and
-
-$$m = p_1^{k_1}p_2^{k_2}\dots p_r^{k_r},\quad n = q_1^{\ell_1}q_2^{\ell_2}\dots q_r^{\ell_s}.$$
-
-Then $$p_i\neq q_j$$ for all $$r$$ and $$s$$.
-Consequently
-
-$$mn = p_1^{k_1}p_2^{k_2}\dots p_r^{k_r}q_1^{\ell_1}q_2^{\ell_2}\dots q_r^{\ell_s}$$
-
-is the factorization of $$mn$$ into powers of distinct primes.
-The fact that $$\sigma(mn) = \sigma(m)\sigma(n)$$ and $$\tau(mn) = \tau(m)\tau(n)$$ then follows immediately from the previous theorem.
-
-:black_square_button:
-
+As another interesting identity, we can consider the product of all the divisors of an integer $$n$$.
 
 **Theorem:** Let $$n$$ be an integer.  Then
 
