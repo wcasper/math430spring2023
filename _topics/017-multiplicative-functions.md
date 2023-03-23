@@ -170,5 +170,3 @@ The statement of the theorem follows immediately.
 
 
 
-
-
