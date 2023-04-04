@@ -37,7 +37,7 @@ There are $$p^{n-1}$$ positive multiples of $$p$$ less than or equal to $$p^n$$,
 
 There is a fundamental relationship between the value of Euler's totent function at an integer and its divisors.
 
-**Theorem:**  Let $$n$$ be a positive integer.  Then
+**Gauss's Theorem:**  Let $$n$$ be a positive integer.  Then
 
 $$n = \sum_{d\mid n} \phi(d).$$
 
