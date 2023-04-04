@@ -40,10 +40,8 @@ $$\sigma_s(n) = \sum_{d\mid n} d^s.$$
 
 $$\sigma_s(n) = \left(\frac{p_1^{s(k_1+1)}-1}{p_1^s-1}\right)\left(\frac{p_2^{s(k_2+1)}-1}{p_2^s-1}\right)\dots\left(\frac{p_r^{s(k_r+1)}-1}{p_r^s-1}\right).$$
 
+
 **Problem 4:** 
-
-
-**Problem 5:** 
 
 Let $$n = p_1^{k_1}p_2^{k_2}\dots p_r^{k_r}$$ for distinct prime divisors $$p_1,\dots p_r$$.  Prove the following
 
@@ -72,7 +70,7 @@ $$\phi(n) = n\prod_{j=1}^r \left(1-\frac{1}{p_j}\right).$$
 $$\sum_{d\mid n} \mu(d)\phi(d) = (2-p_1)(2-p_2)\dots (2-p_r)$$
 
 
-**Problem 6:** Use Euler's Theorem to evaluate
+**Problem 5:** Use Euler's Theorem to evaluate
 
 $$2^{100000}\mod 77.$$
 
