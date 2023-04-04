@@ -22,7 +22,7 @@ For a multiplicative inverse, we have the following function
 
 $$\varepsilon(n) = \left\lbrace\begin{array}{cc}1& n=1\\0& n\neq 1\end{array}\right.$$
 
-:warning: **Careful!** One might be tempted to think that the identity function $$\id$$ or the constant function $$1$$ is the multiplicative identity, but that is not true with respect to convolution!
+:warning: **Careful!** One might be tempted to think that the identity function $$\text{id}$$ or the constant function $$1$$ is the multiplicative identity, but that is not true with respect to convolution!
 
 **Theorem:**  Let $$f(n)$$ be any multiplicative function.  Then
 
@@ -106,13 +106,13 @@ $$f = f * \epsilon = f * (1 * \mu)  = (1 * f)* \mu = F* \mu.$$
 
 :black_square_button:
 
-Since $$\tau = 1 * 1$$ and $$\sigma = \id * 1$$, this provides us with some interesting equations for $$\tau$$ and $$\sigma$$.
+Since $$\tau = 1 * 1$$ and $$\sigma = \text{id} * 1$$, this provides us with some interesting equations for $$\tau$$ and $$\sigma$$.
 
 **Corollary:**  The functions $$\tau$$ and $$\sigma$$ satisfy
 
 $$\sum_{d\mid n} \tau(d)\mu\left(\frac{n}{d}\right) = 1,\quad\text{and}\quad \sum_{d\mid n} \sigma(d)\mu\left(\frac{n}{d}\right) = n.$$
 
-**Proof:**  Just take $$f = 1$$ and $$f = \id$$ in the previous theorem.
+**Proof:**  Just take $$f = 1$$ and $$f = \text{id}$$ in the previous theorem.
 
 :black_square_button:
 
@@ -122,7 +122,7 @@ The Dirichlet inverses of $$\tau$$ and $$\sigma$$ can also be expressed in terms
 
 $$\tau^{-1}(n) = (\mu * \mu)(n) = 2^{\omega(n)}$$
 
-$$\sigma^{-1}(n) = (\mu * \id\mu)(n) = \sum_{d\mid n} d\mu(d)\mu\left(\frac{n}{d}\right).$$
+$$\sigma^{-1}(n) = (\mu * \text{id}\mu)(n) = \sum_{d\mid n} d\mu(d)\mu\left(\frac{n}{d}\right).$$
 
 where here $$\omega(n)$$ denotes the number of *unique* prime divisors of $$n$$.
 
