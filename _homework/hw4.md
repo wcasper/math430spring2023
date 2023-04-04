@@ -63,3 +63,5 @@ this time an equal division left 10 coins. Again an argument developed in which 
 pirate was killed. But now the total fortune was evenly distributed among the survivors.
 What was the least number of coins that could have been stolen?
 
+
+
