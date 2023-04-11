@@ -23,7 +23,7 @@ Determine the last two digits of $$9^{9^9}$$.  [Hint: first consider the value o
 
 **Problem 3:**
 
-Find the remainder when $$4444^{4444}$$ is divisible by $$9$$.
+Find the remainder when $$4444^{4444}$$ is divided by $$9$$.
 
 **Problem 4:** 
 
