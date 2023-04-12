@@ -45,9 +45,9 @@ $$\sigma_s(n) = \left(\frac{p_1^{s(k_1+1)}-1}{p_1^s-1}\right)\left(\frac{p_2^{s(
 
 Let $$n = p_1^{k_1}p_2^{k_2}\dots p_r^{k_r}$$ for distinct prime divisors $$p_1,\dots p_r$$.  Prove the following
 
-* (a)
+* (a) For any multiplicative function $$f(n)$$
 
-$$\sum_{d\mid n} \mu(d)f(d) = (1-f(p_1))(1-f(p_2))\dots(1-p_r)$$
+$$\sum_{d\mid n} \mu(d)f(d) = (1-f(p_1))(1-f(p_2))\dots(1-f(p_r))$$
 
 * (b)
 
