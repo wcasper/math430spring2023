@@ -15,7 +15,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 
 **Problem 1:**
 
-Prove that Dirichlet convolution is commutative, ie if $$f(x)$$ and $$g(x)$ are two arithmetic functions, then
+Prove that Dirichlet convolution is commutative, ie if $$f(x)$$ and $$g(x)$$ are two arithmetic functions, then
 
 $$(f * g)(n) = (g * f)(n)$$
 
