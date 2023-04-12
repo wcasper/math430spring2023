@@ -59,7 +59,7 @@ $$\sum_{d\mid n} \mu(d)\sigma(d) = (-1)^rp_1p_2\dots p_r$$
 
 * (d)
 
-$$\sum_{d\mid n} \mu(d)d = p_1p_2\dots p_r$$
+$$\sum_{d\mid n} \mu(d)d = (1-p_1)(1-p_2)\dots (1-p_r)$$
 
 * (e)
 
