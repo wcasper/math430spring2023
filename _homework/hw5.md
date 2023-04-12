@@ -55,7 +55,7 @@ $$\sum_{d\mid n} \mu(d)\tau(d) = (-1)^r$$
 
 * (c)
 
-$$\sum_{d\mid n} \mu(d)\sigma(d) = p_1p_2\dots p_r$$
+$$\sum_{d\mid n} \mu(d)\sigma(d) = (-1)^rp_1p_2\dots p_r$$
 
 * (d)
 
