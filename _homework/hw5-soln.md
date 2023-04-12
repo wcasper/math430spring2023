@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Homework 5
-permalink: /homework/hw5
+title: Homework 5 Solutions
+permalink: /homework/hw5-soln
 ---
 
 ### Directions
@@ -15,7 +15,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 
 **Problem 1:**
 
-Prove that Dirichlet convolution is commutative, ie if $$f(x)$$ and $$g(x)$ are two arithmetic functions, then
+Prove that Dirichlet convolution is commutative, ie if $$f(x)$$ and $$g(x)$$ are two arithmetic functions, then
 
 $$(f * g)(n) = (g * f)(n)$$
 
