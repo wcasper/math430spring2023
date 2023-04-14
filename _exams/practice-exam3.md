@@ -72,6 +72,6 @@ c) How many integers $$x$$ are there with $$1\leq x  < p$$ whose order is $$10$$
 
 d) Given that $$3$$ is a primitive root of $$2011$$, find (up to congruence modulo $$2011$$) all solutions of the equation
 
-$$x^{10}\equiv 1\modulo 2011.$$
+$$x^{10}\equiv 1\mod 2011.$$
 
 
