@@ -51,8 +51,8 @@ b) Determine the order of $$3$$ modulo $$301$$.
 
 ## Problem 5
 
-Suppose $$m$$ and $$n$$ are positive integers with $$m \mid n$$.
-Prove that if there exists a primitive root modulo $$n$$, then there exists a primitive root modulo $$m$$.
+Suppose that $$p$$ and $$q$$ are two distinct odd integers.
+Prove that there is no primitive root modulo $$pq$$.
 
 ## Problem 6
 
