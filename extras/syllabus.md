@@ -115,7 +115,7 @@ Midterms will be held during class time on the following dates:
 
 **Final Exam**
 The final exam will be cumulative with both written and computational parts, and will account for 30\% of your grade.
-It will be held Wednesday, December 14 from 5PM-6:50PM
+It will be held Tuesday, May 16 from 5PM-6:50PM
 
 ## Important academic calendar dates
 * 01/21/2023: First Day of Classes
