@@ -169,4 +169,9 @@ $$3^{201},\quad 3^{201\cdot 3},\quad 3^{201\cdot 7},\quad 3^{201\cdot 9}.$$
 
 All of these are incongruent modulo $$2011$$ and have order $$10$$ modulo $$2011$$.
 
+However, the equation itself has more solutions.  In fact, we know that $$x^{d}-1\equiv 0\mod p$$ should have exactly $$d$$ solutions as long as $$d\mid (p-1)$$.
+The solutions in general are $$x^{201 j}$$ for $$0\leq j < 9$$.
 
+e) Given that $$3$$ is a primitive root of $$2011$$, find (up to congruence modulo $$2011$$) all integers whose order is $$10$$.
+
+There should be $$\phi(10) = 4$$ solutions.  They are presented in  the solution of part (d).
