@@ -74,4 +74,5 @@ d) Given that $$3$$ is a primitive root of $$2011$$, find (up to congruence modu
 
 $$x^{10}\equiv 1\mod 2011.$$
 
+e) Given that $$3$$ is a primitive root of $$2011$$, find (up to congruence modulo $$2011$$) all integers whose order is $$10$$.
 
