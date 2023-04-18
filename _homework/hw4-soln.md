@@ -195,7 +195,8 @@ x &\equiv 1\mod 2\\
 x &\equiv 2\mod 3\\
 x &\equiv 3\mod 4\\
 x &\equiv 4\mod 5\\
-x &\equiv 5\mod 6
+x &\equiv 5\mod 6\\
+x &\equiv 0\mod 7\\
 \end{align}$$
 
 Note we can't apply CRT right away, since not all the moduli are relatively prime.
@@ -205,7 +206,8 @@ Moreover, the value of $$x$$ modulo $$4$$ also determines the value of $$x$$ mod
 $$\begin{align}
 x &\equiv 2\mod 3\\
 x &\equiv 3\mod 4\\
-x &\equiv 4\mod 5
+x &\equiv 4\mod 5\\
+x &\equiv 0\mod 7
 \end{align}$$
 
 Now the moduli *are* relatively prime, so we can apply the Chinese Remainder Theorem.
@@ -213,7 +215,7 @@ We propose a solution of the form
 
 $$x = a\cdot 4\cdot 5 + b\cdot 3\cdot 5 + c\cdot 3\cdot 4.$$
 
-Then we get the equations
+Then, ignoring the $$\mod 7$$ equation, we get the system
 
 $$\begin{align}
 20a &\equiv 2\mod 3\\
@@ -229,7 +231,8 @@ By the Chinese Remainder Theorem, all solutions ar of the form
 
 $$x = 59 + 3\cdot 4\cdot 5\cdot k$$
 
-for some integer $$k$$, so we see $$59$$ is the smallest possible number of eggs in the basket.
+for some integer $$k$$.
+Now since we need $$x$$ to be positive and divisible by $$7$$, the first value to make this happen is $$k=1$$, giving the solution $$x=119$$.
 
 **Problem 8:** (Ancient Chinese Problem.) A band of
  17 pirates stole a sack of gold coins. When they
