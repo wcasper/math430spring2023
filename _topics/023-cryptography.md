@@ -10,9 +10,9 @@ We will start with some ancient methods of cryptography coming from the ancient 
 
 ## Caesar Cypher
 
-One of the earliest known examples of a cryptographic system is known as **Caesar cypher**, a name which comes from the fact that the famous Roman emperor was known to use it himself in some communications.
+One of the earliest known examples of a cryptographic system is known as **Caesar cipher**, a name which comes from the fact that the famous Roman emperor was known to use it himself in some communications.
 
-In Caesar cypher, the letters of the alphabet A, B, C, ..., and Z are replaced with the integers $$00, 01, 02,\dots 25.$$
+In Caesar cipher, the letters of the alphabet A, B, C, ..., and Z are replaced with the integers $$00, 01, 02,\dots 25.$$
 Then each number $$X$$ is replaced by the number $$X+3$$ modulo $$26$$, and finally converted back into letters.
 
 **Example:**
@@ -29,21 +29,21 @@ Converting this back into letters, we have the encoded message
 
 *dwwdfn qrz*.
 
-The Caesar cypheer is one of the simplest examples of a cypher, and as such is one of the most insecure.
-You could hand this cypher to a group of students and by the end of the day, plausibly see them crack it completely.
+The Caesar cypheer is one of the simplest examples of a cipher, and as such is one of the most insecure.
+You could hand this cipher to a group of students and by the end of the day, plausibly see them crack it completely.
 
-## Polyalphabetic cyphers
+## Polyalphabetic ciphers
 
 One of the main problems with the previous method is that the same letter ends up with the same symbol.
 This makes determining which symbols are which letters far easier.
-Thus it is desireble to obtain a more sophisticated method which creates a **polyalphabetic cypher**, one where the the same letter may be represented by multiple different symbols.
+Thus it is desireble to obtain a more sophisticated method which creates a **polyalphabetic cipher**, one where the the same letter may be represented by multiple different symbols.
 
-### Vigenere's cypher
+### Vigenere's cipher
 
-One of the most famous original versions of this is called  **Vigenere's cypher**, whose encryption is based on a code word that both parties decide on together.
+One of the most famous original versions of this is called  **Vigenere's cipher**, whose encryption is based on a code word that both parties decide on together.
 This word could be something like *ghost*.
 
-Then to encrypt the emessage *attack now*, we convert to numbers like for the Caesar cypher but then repeat the phrase ghost, also converted to numbers underneath, repeated as many times as necessary.
+Then to encrypt the emessage *attack now*, we convert to numbers like for the Caesar cipher but then repeat the phrase ghost, also converted to numbers underneath, repeated as many times as necessary.
 
 
 $$\begin{align}
@@ -62,7 +62,7 @@ However, it is still insecure in the sense that if one can figure out just the l
 
 ### Hill's cipher
 
-Another example of a polyalphabetic cypher is called **Hill's cypher**, and is based on performing $$2\times 2$$ linear transformations.
+Another example of a polyalphabetic cipher is called **Hill's cipher**, and is based on performing $$2\times 2$$ linear transformations.
 
 Start with four numbers $$a,b,c,d$$ satisfying the property that $$ad-bc$$ is relatively prime to $$26$$.
 The phrase to be encoded is broken up into $$2\times 2$$ blocks of numbers, with potentially an extra *X* at the end to make the number of letters even.
