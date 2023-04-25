@@ -109,12 +109,6 @@ Then
 
 $$a^{(p-1)/2}\equiv \left\lbrace \begin{array}{cc} 1 & \text{$a$ is a quadratic residue}\\ -1 & \text{$a$ is a quadratic nonresidue}\end{array}\right.$$
 
-This is motivates the definition of the Legendre symbol, given below.
-
-**Definition**  Let $$p$$ be an odd prime.  The **Legendre symbol** $$(a/p)$$ is defined by
-
-$$(a/p) =  \left\lbrace \begin{array}{cc} 1 & \text{$a$ is a quadratic residue}\\ -1 & \text{$a$ is a quadratic nonresidue}\end{array}\right.$$
-
 
 
 
