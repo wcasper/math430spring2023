@@ -98,7 +98,7 @@ $$F(n) = \sum_{d\mid n} f(d).$$
 
 Then 
 
-$$f(n) = \sum_{d\mid n} f(d)\mu\left(\frac{n}{d}\right).$$
+$$f(n) = \sum_{d\mid n} F(d)\mu\left(\frac{n}{d}\right).$$
 
 **Proof:**  We see that $$F = f * 1$$ and therefore
 
