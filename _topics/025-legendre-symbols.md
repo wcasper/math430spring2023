@@ -94,7 +94,7 @@ $$1,2,\dots, (p-1)/2$$.
 
 It follows that
 
-$$\left(\frac{p-1}{2}\right! = \lvert r_a\rvert_p\cdot \lvert r_{2a}\rvert_p\dots \lvert r_{(p-1)a/2}\rvert_p \equiv \left(\frac{p-1}{2}\right!a^{(p-1)/2}(-1)^n.$$
+$$\left(\frac{p-1}{2}\right)! = \lvert r_a\rvert_p\cdot \lvert r_{2a}\rvert_p\dots \lvert r_{(p-1)a/2}\rvert_p \equiv \left(\frac{p-1}{2}\right!a^{(p-1)/2}(-1)^n.$$
 
 Hence $$(-1)^n\equiv a^{(p-1)/2}$$ and the statement of the theorem follows from Euler's Theorem.
 :black_square_button:
