@@ -35,6 +35,8 @@ d) State the definition of a composite number
 
 e) State the Quadratic Reciprocity Law
 
+f) Define the order of an integer $$x$$ modulo $$n$$.  What has to be true about $$x$$ and $$n$$ for this to make sense?
+
 ## Problem 3
 
 a) Use the Euclidean algorithm to find all integer solution to
@@ -144,6 +146,8 @@ $$(5/p) = 1\quad\Leftrightarrow\quad p = 1,9,11,19\mod 20.$$
 b)
 
 $$(6/p) = 1\quad\Leftrightarrow\quad p = 1,5,19,23\mod 24.$$
+
+
 
 
 
