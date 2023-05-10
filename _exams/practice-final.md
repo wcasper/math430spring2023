@@ -50,8 +50,8 @@ b) Find all values of $$x$$ with $$37x\equiv 38$$ mod $$41$$.
 Suppose that $$f(x)$$ and $$g(x)$$ are two multiplicative arithmetic functions whose first few values are given in the table below.
 
 $$\begin{array}{c|c|c|c|c|c|c|c}
-x    & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-f(x) & 1 & 3 & 2 & 7 & 5 & 6 & 4 \\
+x    & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\\hline
+f(x) & 1 & 3 & 2 & 7 & 5 & 6 & 4 \\\hline
 g(x) & 1 & 1 & 7 & 9 & 2 & 7 & 1
 \end{array}
 $$
