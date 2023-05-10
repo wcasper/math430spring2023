@@ -132,6 +132,7 @@ Show that there is a number $$n$$ with $$1\leq n \leq 10$$ such that both $$n$$ 
 Determine which of the following quadratic congruence equations are solvable 
 
 a) $$3x^2+6x+5 = 0\mod 89$$
+
 b) $$2x^2+5x-9 = 0\mod 101$$
 
 ## Problem 12
