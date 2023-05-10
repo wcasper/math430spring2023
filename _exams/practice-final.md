@@ -122,10 +122,27 @@ c) $$(461/773)$$
 
 ## Problem 10
 
-Suppose that $$p > 5$$ is a prime.
+Suppose that $$p \geq 11$$ is a prime.
 
-Show that there is a number $$n$$ with $$1\leq n < p-1$$ such that both $$n$$ and $$n+1$$ are quadratic residues.
+Show that there is a number $$n$$ with $$1\leq n \leq 10$$ such that both $$n$$ and $$n+1$$ are quadratic residues.
 
+
+## Problem 11
+
+Determine which of the following quadratic congruence equations are solvable 
+
+a) $$3x^2+6x+5 = 0\mod 89$$
+b) $$2x^2+5x-9 = 0\mod 101$$
+
+## Problem 12
+
+a) Prove
+
+$$(5/p) = 1\quad\Leftrightarrow\quad p = 1,9,11,19\mod 20.$$
+
+b)
+
+$$(6/p) = 1\quad\Leftrightarrow\quad p = 1,5,19,23\mod 20.$$
 
 
 
