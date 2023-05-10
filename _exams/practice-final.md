@@ -142,7 +142,7 @@ $$(5/p) = 1\quad\Leftrightarrow\quad p = 1,9,11,19\mod 20.$$
 
 b)
 
-$$(6/p) = 1\quad\Leftrightarrow\quad p = 1,5,19,23\mod 20.$$
+$$(6/p) = 1\quad\Leftrightarrow\quad p = 1,5,19,23\mod 24.$$
 
 
 
