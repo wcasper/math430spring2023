@@ -77,10 +77,10 @@ For each $$k$$, let $$t_k$$ be the remainder of $$ak$$ divided by $$p$$.
 
 Then
 
-\begin{align}
+$$\begin{align}
 \sum_{k=1}^{(p-1)/2} ak
   & = \sum_{k=1}^{(p-1)/2} \left(\lfloor \frac{ak}{p}\rfloor p  + r_k\right).
-\end{align}
+\end{align}$$
 
 Moreover, from the proof of Gauss's Lemma we know that
 
@@ -88,22 +88,23 @@ $$\lvert r_1 \rvert_p, \lvert r_2 \rvert_p,\dots \lvert r_{(p-1)/2}\rvert$$
 
 are just the numbers $$1,2,\dots, (p-1)/2$$ in some order.  Therefore
 
-\begin{align}
+$$\begin{align}
 \sum_{k=1}^{(p-1)/2} k
   & = \sum_{k=1}^{(p-1)/2} \lvert r_k\rvert_p.
-\end{align}
+\end{align}$$
 
 Let $$n$$ be as in th statement of Gauss's Lemma and let $$E\subseteq \{1,2,\dots, (p-1)/2\}$$ consist of all integers $$k$$ with $$r_k\neq \lvert r_k\rvert_p.$$
 Putting these together, we find for $$n$$ defined as in the statement of Gauss's Lemma
 
-\begin{align}
+$$\begin{align}
 \sum_{k=1}^{(p-1)/2} (a-1)k
   & = \sum_{k=1}^{(p-1)/2} \left(\lfloor \frac{ak}{p}\rfloor p  + r_k\right) - \sum_{k=1}^n \lvert r_k\rvert_p\\
   & = \sum_{k=1}^{(p-1)/2} \left(\lfloor \frac{ak}{p}\rfloor p  + r_k-\lvert r_k\rvert_p\right)\\
   & = \sum_{k=1}^{(p-1)/2} \left(\lfloor \frac{ak}{p}\rfloor p\right) + np + 2\sum_{k\in E} r_k.
 \end{align}
+$$
 
-Reducing this expressiion modulo $$2$$, using the fct that both $$a$$ and $$p$$ are odd, we find
+Reducing this expressiion modulo $$2$$, using the fact that both $$a$$ and $$p$$ are odd, we find
 
 $$0 \equiv n + \sum_{k=1}^{(p-1)/2} \lfloor \frac{ak}{p}\rfloor\mod 2.$$
 
