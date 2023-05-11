@@ -60,7 +60,7 @@ $$
 
 a) Find the value of $$f(420)$$.
 
-b) Suppose that $$h(x)$$ satisfies
+b) Suppose that $$h(x)$$ is a new function which you know satisfies
 
 $$f(n) = \sum_{d\mid n} h(d).$$
 
