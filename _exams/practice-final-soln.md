@@ -129,7 +129,7 @@ $$(f * g)(420)$$
 
 a) We calculate
 
-$$f(420) = f(4)f(3)f(5)f(7) = 7\cdot 2\cdot 5\cdot 4 = 240.$$
+$$f(420) = f(4)f(3)f(5)f(7) = 7\cdot 2\cdot 5\cdot 4 = 280.$$
 
 b) We use Mobius Inversion to see $$h(n) = \sum_{d\mid n}f(d)\mu(n/d)$$. Thus
 
@@ -141,7 +141,7 @@ $$h(60) = f(4)f(3)f(5) - f(2)f(3)f(5) - f(4)f(5) - f(4)f(3) + f(2)f(5) + f(6) + 
 
 In the end, we obtain
 
-$$h(60) = 60-30 - 35 - 14 + 15 + 6 + 7 - 3 = 6.$$
+$$h(60) = 70-30 - 35 - 14 + 15 + 6 + 7 - 3 = 16.$$
 
 c) 
 
