@@ -261,7 +261,7 @@ Thus by the Principle of Induction, the theorem holds for all $$n$$.
 
 **Solution 2:**
 
-The Fibonacci sequence can be expressed in terms of the Golden ratio $\varphi = \frac{1+\sqrt{5}}{2}$$ and its conjugate $$\psi = \frac{1-\sqrt{5}}{2}.$$
+The Fibonacci sequence can be expressed in terms of the Golden ratio $$\varphi = \frac{1+\sqrt{5}}{2}$$ and its conjugate $$\psi = \frac{1-\sqrt{5}}{2}.$$
 
 Specifically, we know:
 
