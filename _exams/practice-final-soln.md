@@ -157,7 +157,7 @@ $$
 
 Therefore
 
-$$(f* g)(42) = 19\cdot 9\cdot 7 \cdot 5 = 5985.$$
+$$(f* g)(420) = (f* g)(4)(f* g)(3)(f* g)(5)(f* g)(7)= 19\cdot 9\cdot 7 \cdot 5 = 5985.$$
 
 ## Problem 5
 
