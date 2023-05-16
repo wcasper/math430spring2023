@@ -13,7 +13,7 @@ Since $$a^j$$ and $$p$$ are relatively prime, we can divide both sides by $$a^j$
 To summarize, $$a^m\equiv 1\mod p$$ for some positive integer $$m$$.
 Fermat's Little Theorem tells us what the integer is.
 
-**Fermat's Little Theorem:** Suppose that $$p$$ is prime and $$a$$ is an integer not divisible by $$p$$.  Then $$a^{p-1}\equiv a\mod p$$.
+**Fermat's Little Theorem:** Suppose that $$p$$ is prime and $$a$$ is an integer not divisible by $$p$$.  Then $$a^{p-1}\equiv 1\mod p$$.
 
 **Proof:**
 
