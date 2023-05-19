@@ -37,6 +37,6 @@ Suppose that $$p$$ and $$q$$ are odd primes with $$\gcd(p,a)=1$$ and $$p=\pm q\m
 
 $$(a/p) = (a/q).$$
 
-
+[Hint: $$(a/p) = (4a/p)$$]
 
 
