@@ -33,11 +33,19 @@ Show that if $$(a,b)$$ is an integer point on the circle, then $$a$$ and $$b$$ a
 
 ## Problem 3
 
-Suppose that $$p$$ and $$q$$ are odd primes with $$p=q+4a$$ for some integer $$a$$.  Then
+Suppose that $$p$$ and $$q$$ are odd primes with $$\gcd(p,a)=1$$ and $$p=\pm q\mod 4a$$.  Then
 
 $$(a/p) = (a/q).$$
 
-[Hint: $$(a/p) = (4a/p)$$ ]
+Hints/roadmap:
+1. Since Legendre symbols are multiplicative, it suffices to consider the case when $$a$$ is prime.
+2. If $$a=2$$, use our special formula for $$(2/p)$$ and $$(2/q)$$
+3. If $$a$$ is an odd prime, use reciprocity to write
 
+$$(a/p) = (-1)^{\frac{a-1}{2}\frac{p-1}{2}} (p/a) = (-1)^{\frac{a-1}{2}\frac{p-1}{2}} (\pm q/a).$$
+
+(where here we've used that $$p$$ is equivalent to $$\pm q$$ modulo $$a$$.)
+
+4.  Now use $$(\pm 1/ a) = (\pm 1)^{(a-1)/2}$$ and quadratic reciprocity again on $$(q/a)$$.
 
 
