@@ -33,10 +33,11 @@ Show that if $$(a,b)$$ is an integer point on the circle, then $$a$$ and $$b$$ a
 
 ## Problem 3
 
-Suppose that $$p$$ and $$q$$ are odd primes with $$\gcd(p,a)=1$$ and $$p=\pm q\mod 4a$$.  Then
+Suppose that $$p$$ and $$q$$ are odd primes with $$p=q+4a$$ for some integer $$a$$.  Then
 
 $$(a/p) = (a/q).$$
 
-[Hint: $$(a/p) = (4a/p)$$]
+[Hint: $$(a/p) = (4a/p)$$ ]
+
 
 
